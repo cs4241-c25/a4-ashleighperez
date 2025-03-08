@@ -160,7 +160,7 @@ const modifyTask = async function(event) {
         if (!response.ok) throw new Error(`${response.status}`);
         const updatedData = await response.json();
         updateTable(updatedData);
-        // Optionally, reset the modify form fields
+
         idInput.value = "";
         taskInput.value = "";
         priorityInput.value = "";

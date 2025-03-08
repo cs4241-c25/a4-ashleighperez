@@ -134,8 +134,8 @@ app.post("/modify", requiresAuth(), async (req, res) => {
 
     try {
         // check if task exists under user
-        const task = await Task.findOne({ _id: id, userId });
-        if (!task) {
+        const taskQ = await Task.findOne({ _id: id, userId });
+        if (!taskQ) {
             return res.status(404).json({ error: "Task not found." });
         }
 
