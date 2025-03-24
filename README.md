@@ -1,4 +1,4 @@
-Assignment 2 - Short Stack: Basic Two-tier Web Application using HTML/CSS/JS and Node.js
+Assignment 4 - Short Stack: Basic Two-tier Web Application using HTML/CSS/JS and Node.js
 ===
 
 ## //TODO
