@@ -1,0 +1,65 @@
+body {
+    background:#f1f1f1;
+    color:#010101;
+    font-family: 'Inter', sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    color: dodgerblue;
+    font-weight: bold;
+}
+
+h2 {
+    color: #0056b3;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.todo-container {
+    background: #1e90ff; /* Dodger blue */
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 8px; /* Smooth rounded edges */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* shadow */
+    /*border-radius: 8px; */
+    padding-top: 10px;
+    overflow: hidden; /* prevents overflow issues */
+}
+
+/* Header */
+thead {
+    background: #0056b3;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Table Cells */
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    background: white;
+    color: #0056b3
+}
+
+input{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    margin-right: 10px;
+}

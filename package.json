@@ -4,7 +4,7 @@
   "description": "WPI CS4241-C25 Assignment A4",
   "author": "Ashleigh Perez",
   "scripts": {
-    "start": "node server.js"
+    "start": "node todo-app/server.js"
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.10",
@@ -22,7 +22,7 @@
   "engines": {
     "node": "16.x"
   },
-  "main": "server.js",
+  "main": "todo-app/server.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cs4241-c25/a4-ashleighperez.git"
